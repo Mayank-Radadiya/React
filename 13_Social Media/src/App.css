@@ -1,0 +1,34 @@
+
+#root {
+  text-align: center;
+  width: 100vw;
+  background-color: #1B1C1B;
+  color: #fff;
+}
+#main-app{
+  display: flex;
+  max-width: 100vw;
+}
+.header_01{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+}
+
+.xyz{
+  height: 720px;
+  position: fixed;
+  top:9%;
+  z-index: 10;
+}
+#main-page{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+.tags{
+  margin: 2px 3px;
+}

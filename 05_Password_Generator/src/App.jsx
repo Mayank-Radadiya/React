@@ -59,7 +59,7 @@ function App() {
     <h1 className='text-4xl text-white'>Password Generator</h1> 
 
     <input 
-      className='outline-none w-full py-2 px-3 mt-4 text-white'
+      className='outline-none w-full py-2 px-3 mt-4 text-black'
       type="text"
       placeholder='Password Includes: Only Characters' 
       readOnly
